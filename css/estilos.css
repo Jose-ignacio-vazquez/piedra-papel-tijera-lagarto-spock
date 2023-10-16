@@ -1,0 +1,67 @@
+body{
+	background-color: lightgreen;
+}
+
+header{
+	text-align: center;
+	font: bold ;
+	font-size: xx-large;
+}
+.boton{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+#ordenador {
+	display: inline-block;
+	right: 50px;
+	top:150px;
+	float: right;
+	width: 6%;
+}
+
+#jugador {
+	display: inline-block;
+	left: 50px;
+	top: 150px;
+	float: left;
+	border-bottom: darkred 5px;
+	border-left: lightgreen 5px;
+	width: 5%;
+}
+
+#resultado{
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	float: right;
+	width: 50%;
+}
+
+#caja{
+	margin-bottom: 10px;
+	margin-right: 50px;
+}
+
+#cajaEleccion{
+	margin-right: 50px;
+}
+
+.botonOrdenador{
+	margin-bottom: 10px;
+}
+
+.botonJugador{
+	margin-bottom: 10px;
+
+}
+
+.cajaCentro{
+	height: 60px;
+	margin-right: 50px;
+}
+
+hr{
+	border: none;
+}
